@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SignUpStyle.css" />
+
+</head>
+<body>
+    <header>
+        <section class="title"><span>Sign Up</span></section>
+    </header>
+    <section class="main">
+    <fieldset>
+
+        <form>
+           <label for="username">Username</label>
+           <input type="text" id="username" name="username"placeholder="Enter username" required>
+
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+           <label for="password">Password</label>
+           <input type="password" id="password" name="password" placeholder="Enter password" required>
+           
+           <label for="birthday">Birthday:</label>
+           <input type="date" id="birthday" name="birthday">
+           <br>
+           <label>Gender</label>
+           <input type="radio" name="gender" value="male">Male
+           <input type="radio" name="gender" value="fmale">Female
+           <br>
+        
+           <label>Choose your prefered language</label><br><br>
+
+          <div class=checkbox>
+             <input type="checkbox" id="english" name="english" checked />English
+     
+             <input type="checkbox" id="tamil" name="tamil" />Tamil
+  
+           </div>
+           <label for="city">Choose your city:</label>
+           <input list="cities" name="city" id="city">
+     
+           <datalist id="cities">
+             <option value="Chennai">
+             <option value="Mumbai">
+             <option value="Delhi">
+             <option value="Kolkata">
+
+           </datalist>
+           <br>
+           <br>
+           <input style="color:  #d4a610;font-size: 20px;" type="reset" value="Clear"> <br>  <br>
+           <input style="color:  #d4a610;font-size: 20px;" type="submit" value="Submit">
+
+        
+
+          
+
+        </form>
+        </fieldset>
+   </section>
+
+</fieldset>
+</body>
+</html>

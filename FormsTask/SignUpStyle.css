@@ -1,0 +1,48 @@
+.title{
+    height: 120px;
+    color:  #d4a610;
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 80px;
+ margin-right: 150px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="reset"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+input[type="checkboxs"] {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom:20px;
+ 
+}
+.checkbox{
+    padding-bottom: 20px;
+}
+label{
+    color:  #d4a610;
+    font-size: 18px;
+    text-align: center;
+}
